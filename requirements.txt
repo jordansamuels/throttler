@@ -1,1 +1,6 @@
 nose
+jupyter
+pandas
+numpy
+holoviews
+bokeh

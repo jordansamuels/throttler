@@ -19,4 +19,6 @@ $(VENV):
 clean:
 	rm -rf $(VENV) .deps
 
+run_notebooks: .deps
+	env PYTHONPATH=../src venv/bin/jupyter notebook --notebook-dir=notebooks
 
