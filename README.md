@@ -11,7 +11,7 @@ You should have a unix-type machine (e.g. OSX, Linux) and `python3` on your path
 ## Implementation
 The implementation is in [throttle.py](src/throttler/throttle.py).  It is a somewhat naive implementation using 
 the native python [deque](https://docs.python.org/3/library/collections.html#collections.deque) class.  This is somewhat
-performant, but obviously an custom class optimized for this tiny use case could be much faster.  
+performant, but obviously a custom class optimized for this tiny use case could be much faster.  
 
 ## Developing with PyCharm
 After running `make test`, 
